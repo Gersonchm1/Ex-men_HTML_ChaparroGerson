@@ -1,0 +1,188 @@
+.Principal{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(11,1fr);
+    
+    margin: 0;
+
+}
+.Principal > div {
+   
+    margin: -1vw;
+    padding: 2vw;
+    
+    
+
+}
+.Cabeza_1{
+    background-color: rgb(61, 103, 241);
+    width: 100%;
+    height: 7vw;
+    margin: 0vw 0vw 0vw 0vw;
+    display: flex;
+}
+.img-1{
+    margin: 0vw 0vw 0vw 7vw;
+    width: 27vw;
+    height: 8vw;
+    display: flex;
+}
+.Inicio{
+    font-family: "hola";
+    font-size: 2.5vw;
+    display: flex;
+    color: white;
+    font-weight: 700;
+    margin: 2vw 0vw 0vw 0vw;
+    
+
+}
+.Que{
+    font-family: "hola";
+    font-size: 2.5vw;
+    display: flex;
+    color: white;
+    font-weight: 700;
+    margin: 2vw 0vw 0vw 0vw;
+}
+.entrega{
+    font-family: "hola";
+    font-size: 2.5vw;
+    display: flex;
+    color: white;
+    font-weight: 700;
+    margin: 2vw 0vw 0vw -3vw;
+
+}
+@font-face {
+    font-family: 'hola';
+    src: url("../fonts/myriad-pro-light.otf");
+    
+}
+
+.Boton-1{
+    border: 0.1vw solid black;
+    font-size: 1vw;
+    font-weight: 700;
+    
+    width: 9vw;
+    height: 2vw;
+    margin: 2vw 0vw 0vw 5vw;
+    
+    padding: 10px 2vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    display: flex;
+    
+    
+        
+    
+
+}
+.Boton-1:hover {
+    background-color: #ca7d24;
+  }
+.Boton-1:active {
+    background-color: #f39d1d;
+  }
+.consultar{
+    font-family: "hola";
+    margin: -0.2vw 0vw 0vw 0.8vw ;
+    display: flex;
+    
+}
+.img-2{
+    width: 100vw;
+    height: 52vw;
+    display: flex;
+    margin: -23.5vw 0vw 0vw -1.5vw;
+}
+.formulario{
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 50vw;
+    display: flex;
+    position: relative;
+    margin: -48vw 0vw 0vw 2vw;
+    border-radius: 2vw;
+}
+.formu{
+    font-family: "hola";
+    font-weight: 900;
+    font-size: 2.5vw;
+    margin: 1vw 0vw 0vw -2.5vw;
+}
+.formu2{
+    font-family: "hola";
+    font-weight: 500;
+    font-size: 1vw;
+    margin: 11vw 0vw 0vw -30vw;
+    position: relative;
+
+}
+.select1{
+    width: 36vw;
+    height: 2.5vw;
+    display: flex;
+    border: 0.1ch solid black;
+    margin: 16vw 0vw 0vw -8vw;
+    position: relative;
+}
+.formu3{
+    margin: 14vw 0vw 0vw -40vw;
+    position: relative;
+    display: flex;
+    font-family: "hola";
+    font-weight: 800;
+}
+.real{
+    margin: 20vw 0vw 0vw -36vw;
+    font-family: "hola";
+    font-size: 1.5vw;
+}
+.fname{
+    width: 35vw;
+    height: 1.5vw;
+}
+.lname{
+    width: 35vw;
+    height: 1.5vw;
+}
+.Boton-2{
+    border: 0.1vw solid black;
+    font-size: 1vw;
+    font-weight: 700;
+    
+    width: 9vw;
+    height: 2vw;
+    margin: 45vw 0vw 0vw -25vw;
+    
+    padding: 10px 2vw;
+    background-color: #5498f0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    display: flex;
+    
+    
+        
+    
+
+}
+.Boton-2:hover {
+    background-color: #ca7d24;
+  }
+.Boton-2:active {
+    background-color: #f39d1d;
+  }
+.consultar10{
+    margin: 0.2vw 0vw 0vw 2vw;
+    font-family: "hola";
+    font-size: 1.5vw;
+}
+
+
